@@ -1,5 +1,7 @@
 reated by https://www.gitignore.io
 
+.gitignore
+.Gemfile.lock
 ### Rails ###
 *.rbc
 capybara-*.html
@@ -11,6 +13,7 @@ capybara-*.html
 /public/system
 /coverage/
 /spec/tmp
+**.keep
 **.orig
 rerun.txt
 pickle-email-*.html
